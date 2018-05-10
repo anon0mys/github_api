@@ -10,7 +10,7 @@ class UserSearch
   end
 
   def user_info
-    GitHubUser.new(make_request)
+    GithubUser.new(make_request)
   end
 
   def make_request
@@ -23,14 +23,4 @@ class UserSearch
 
   private
     attr_reader :username
-end
-
-class GitHubUser
-  attr_reader :username, :name, :avatar
-
-  def initialize(attrs)
-    @username = attrs[:login]
-    @name = attrs[:name]
-    @avatar = attrs[:avatar_url]
-  end
 end

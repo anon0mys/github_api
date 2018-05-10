@@ -1,6 +1,21 @@
-<% if current_user %>
-  <p>Welcome, <%= current_user.name %>!</p>
-  <%= link_to 'Log Out', logout_path, method: :delete %>
-<% else %>
-  <%= link_to 'Login with Github', github_login_path %>
-<% end %>
+<nav>
+  <div class="main-menu">
+    <div class="logo">
+      <%= image_tag asset_path 'GitHub-Mark-Light-32px.png' %>
+    </div>
+    <%= form_tag('/', :method => "get") do %>
+      <%= text_field_tag :search, params[:search], placeholder: 'Search GitHub', class: 'search logged-in' %>
+    <% end %>
+    <div class="menu-links main-links">
+      <%= link_to 'Pull requests', '/', class: 'main-link' %>
+      <%= link_to 'Issues', '/', class: 'main-link' %>
+      <%= link_to 'Marketplace', '/', class: 'main-link' %>
+      <%= link_to 'Explore', '/', class: 'main-link' %>
+    </div>
+  </div>
+  <div class="sign-ins">
+    <%= link_to image_tag('bell.svg'), github_login_path, class: 'notification-bell' %>
+    <%= link_to image_tag('plus.svg'), github_login_path, class: 'plus-dropdown' %>
+</nav>
+<p>Welcome, <%= current_user.name %>!</p>
+<%= link_to 'Log Out', logout_path, method: :delete %>

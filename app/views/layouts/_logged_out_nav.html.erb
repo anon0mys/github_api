@@ -1,13 +1,22 @@
 <nav>
-  <div class="main-menue">
+  <div class="main-menu">
     <div class="logo">
-
+      <%= image_tag asset_path 'GitHub-Mark-Light-32px.png' %>
     </div>
-    
+    <div class="menu-links">
+      <%= link_to 'Features', '/', class: 'menu-link' %>
+      <%= link_to 'Business', '/', class: 'menu-link' %>
+      <%= link_to 'Explore', '/', class: 'menu-link' %>
+      <%= link_to 'Marketplace', '/', class: 'menu-link' %>
+      <%= link_to 'Pricing', '/', class: 'menu-link' %>
+    </div>
   </div>
+  <%= form_tag('/', :method => "get") do %>
+    <%= text_field_tag :search, params[:search], placeholder: 'Search GitHub', class: 'search' %>
+  <% end %>
   <div class="sign-ins">
-    <%= link_to 'Sign in', github_login_path %>
+    <%= link_to 'Sign in', github_login_path, class: 'sign-in-link' %>
     <p id='sign-in-or'>or</p>
-    <%= link_to 'Sign up', github_login_path %>
+    <%= link_to 'Sign up', github_login_path, class: 'sign-in-link' %>
   </div>
 </nav>

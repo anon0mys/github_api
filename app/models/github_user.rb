@@ -10,7 +10,7 @@ class GithubUser
 
   def initialize(attrs)
     @login = attrs[:login]
-    @uid = attrs[:id]
+    @uid = attrs[:id].to_s
     @name = attrs[:name]
     @bio = attrs[:bio]
     @avatar = attrs[:avatar_url]

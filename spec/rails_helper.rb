@@ -27,13 +27,6 @@ Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
-VCR.configure do |config|
-  config.cassette_library_dir = "spec/fixtures/cassettes"
-  config.hook_into :webmock
-  config.allow_http_connections_when_no_cassette = true
-  config.filter_sensitive_data('<PROPUBLICA_API_KEY>') { ENV['PROPUBLICA_API_KEY'] }
-end
-
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"

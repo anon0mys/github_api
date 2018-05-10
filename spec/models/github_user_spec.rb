@@ -5,7 +5,7 @@ describe GithubUser do
   let(:attributes) {
     {
       login: "anon0mys",
-      id: 34108893,
+      id: '34108893',
       name: "Evan Wheeler",
       bio: 'A Bio',
       avatar_url: "https://avatars2.githubusercontent.com/u/34108893?v=4",

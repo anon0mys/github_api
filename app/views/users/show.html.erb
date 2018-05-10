@@ -1,8 +1,21 @@
 <div class="profile-main">
   <div class="profile-card">
-    <%= image_tag @profile.avatar, class: 'avatar'%>
+    <% if @profile.avatar.nil? %>
+      <%= image_tag "https://avatars2.githubusercontent.com/u/34108893?v=4", class: 'avatar' %>
+    <% else %>
+      <%= image_tag @profile.avatar, class: 'avatar'%>
+    <% end %>
     <%= @profile.name %>
     <%= @profile.login %>
+    <% if current_user.uid == @profile.uid %>
+      <% if @profile.bio.nil? %>
+        <%= link_to 'Add Bio', '/' %>
+      <% else %>
+        <%= @profile.bio %>
+      <% end %>
+    <% else %>
+      <%= link_to 'Follow', '/' %>
+    <% end %>
   </div>
   <div class="profile-links">
 

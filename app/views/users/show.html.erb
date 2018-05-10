@@ -18,6 +18,18 @@
     <% end %>
   </div>
   <div class="profile-links">
-
+    <%= link_to 'Repositories', '/' %>
+      <div class="counter">
+        <%= @profile.public_repos %>
+      </div>
+    <%= link_to 'Stars', '/' %>
+    <%= link_to 'Followers', '/' %>
+      <div class="counter">
+        <%= @profile.followers %>
+      </div>
+    <%= link_to 'Following', '/' %>
+      <div class="counter">
+        <%= @profile.following %>
+      </div>
   </div>
 </div>

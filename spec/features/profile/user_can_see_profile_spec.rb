@@ -61,7 +61,7 @@ feature 'On a User Profile Page' do
         expect(page).to have_content 'Following'
       end
 
-      expect(page).to have_css('.counter', count: 4)
+      expect(page).to have_css('.counter', count: 3)
     end
   end
 end

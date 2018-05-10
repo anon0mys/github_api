@@ -16,6 +16,22 @@
   <div class="sign-ins">
     <%= link_to image_tag('bell.svg'), github_login_path, class: 'notification-bell' %>
     <%= link_to image_tag('plus.svg'), github_login_path, class: 'plus-dropdown' %>
+    <div class="profile-dropdown">
+      <%= image_tag current_user.avatar, class: 'avatar-icon' %>
+        <div class="dropdown-menu">
+          <ul class="dropdown-links">
+            <h4>Signed in as</h4>
+            <p><%= current_user.username %></p>
+            <div class="divider"></div>
+            <li><%= link_to 'Your profile', "/#{current_user.username}" %></li>
+            <li>Your stars</li>
+            <li>Your gists</li>
+            <div class="divider"></div>
+            <li>Help</li>
+            <li>Settings</li>
+            <li><%= link_to 'Sign out', logout_path, method: :delete %></li>
+          </ul>
+        </div>
+    </div>
+  </div>
 </nav>
-<p>Welcome, <%= current_user.name %>!</p>
-<%= link_to 'Log Out', logout_path, method: :delete %>

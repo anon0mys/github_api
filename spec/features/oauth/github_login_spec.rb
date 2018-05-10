@@ -8,8 +8,11 @@ feature 'Github OAuth Login' do
       click_on 'Sign in'
 
       expect(current_path).to eq(root_path)
-      expect(page).to have_content('Welcome, Test User!')
-      expect(page).to have_content('Log Out')
+      expect(page).to have_css('.profile-dropdown')
+      within('.profile-dropdown') do
+        expect(page).to have_content('Signed in as')
+        expect(page).to have_content('Sign out')
+      end
     end
   end
 end

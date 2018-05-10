@@ -55,9 +55,9 @@ nav
     display: flex
     flex-direction: row
     flex-grow: 2
-    align-items: baseline
+    align-items: center
     color: white
-    margin-right: 15%
+    margin-right: 10%
 
     #sign-in-or
       padding-left: 5px
@@ -71,3 +71,36 @@ nav
 
     .notification-bell
       margin-right: 20px
+
+    .profile-dropdown
+      margin-left: 15px
+
+      .avatar-icon
+        width: 20px
+
+      .dropdown-menu
+        display: none
+        color: black
+        position: absolute
+        width: 180px
+        background-color: #fff
+        box-shadow: 0.25px .25px .25px #404448
+
+      .dropdown-links
+        padding-left: 10px
+        list-style: none
+
+        li
+          padding-top: 5px
+          padding-bottom: 5px
+
+        li:hover
+          background-color: #0366d6
+      .divider
+        border-bottom: solid #404448 0.25px
+        height: 2px
+
+      a
+        text-decoration: none
+        color: black
+        margin-top: 5px

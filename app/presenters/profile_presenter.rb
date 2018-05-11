@@ -1,5 +1,5 @@
 class ProfilePresenter
-  attr_reader :user, :repos
+  attr_reader :user, :repos, :followers
 
   def initialize(username)
     @user ||= GithubUserSearch.new(username).find_user
@@ -10,6 +10,8 @@ class ProfilePresenter
     case api_call
     when 'repositories'
       @repos ||= RepoSearch.new(params[:username]).find_repositories
+    when 'followers'
+      @followers ||= FollowerSearch.new(params[:username]).find_followers
     end
   end
 end

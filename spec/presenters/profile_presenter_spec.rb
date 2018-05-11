@@ -73,16 +73,14 @@ describe ProfilePresenter do
         stub_request(:get, 'https://api.github.com/users/username/events')
           .to_return(status: 200, body: File.read('./spec/fixtures/json/events.json'))
 
-        overview = subject.build_profile(params)
+        subject.build_profile(params)
 
-        expect(overview).to be_an Overview
+        expect(subject.pinned_repos).to be_an Array
+        expect(subject.pinned_repos.first).to be_a Repository
+        expect(subject.pinned_repos.count).to eq(6)
 
-        expect(overview.pinned_repos).to be_an Array
-        expect(overview.pinned_repos.first).to be_a Repository
-        expect(overview.pinned_repos.count).to eq(6)
-
-        expect(overview.contributions).to be_an Array
-        expect(overview.contributions.first).to be_an Event
+        expect(subject.contributions).to be_an Array
+        expect(subject.contributions.first).to be_an Event
       end
     end
   end

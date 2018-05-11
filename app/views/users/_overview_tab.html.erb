@@ -1,0 +1,42 @@
+<div class="pinned-repos">
+  <h4>Pinned repositories</h4>
+  <ul class='pinned-grid'>
+    <% @profile.pinned_repos.each do |repo| %>
+      <li class='pinned-item'>
+        <%= link_to repo.name %>
+        <% unless repo.description.nil? %>
+          <%= repo.description %>
+        <% end %>
+        <div class="pinned-attributes">
+          <% unless repo.language.nil? %>
+            dot
+            <%= repo.language %>
+          <% end %>
+          <% unless repo.forks_count.zero? %>
+            fork
+            <%= repo.forks_count %>
+          <% end %>
+          <% if repo.updated_at < 1.month.ago %>
+            <p>Updated <%= ((Time.current - repo.updated_at) / 1.day).round %> days ago</p>
+          <% elsif repo.updated_at < 1.month.ago %>
+            <p>Updated on <%= repo.updated_at.strftime('%b %e') %></p>
+          <% else %>
+            <p>Updated on <%= repo.updated_at.strftime('%b %e, %Y') %></p>
+          <% end %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</div>
+<div class="contributions">
+  <h4>Contribution activity</h4>
+  <ul class='pinned-grid'>
+    <% @profile.contributions[0..19].each do |contribution| %>
+      <li class='contribution-item'>
+        <%= contribution.type %>
+        <%= contribution.repo %>
+        <%= contribution.created_at %>
+      </li>
+    <% end %>
+  </ul>
+</div>

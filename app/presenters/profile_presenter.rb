@@ -1,5 +1,11 @@
 class ProfilePresenter
-  attr_reader :user, :repos, :followers, :following, :starred
+  attr_reader :user,
+              :repos,
+              :followers,
+              :following,
+              :starred,
+              :pinned_repos,
+              :contributions
 
   def initialize(username)
     @user ||= GithubUserSearch.new(username).find_user
@@ -16,6 +22,9 @@ class ProfilePresenter
       @followers ||= FollowerSearch.new(params[:username]).find_followers
     when 'following'
       @following ||= FollowingSearch.new(params[:username]).find_following
+    else
+      @pinned_repos ||= RepoSearch.new(params[:username]).find_repositories[0..5]
+      @contributions ||= EventSearch.new(params[:username]).find_events
     end
   end
 

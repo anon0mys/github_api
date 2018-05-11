@@ -1,0 +1,27 @@
+<div class='starred-search'>
+
+</div>
+<ul class='starred-list'>
+  <% @profile.starred.each do |repo| %>
+    <li class='starred-item'>
+      <%= link_to @profile.user.login %>/<%= link_to repo.name %>
+      <div class="repo-attributes">
+        <% unless repo.language.nil? %>
+          dot
+          <%= repo.language %>
+        <% end %>
+        <% unless repo.stargazers_count.zero? %>
+          fork
+          <%= repo.stargazers_count %>
+        <% end %>
+        <% if repo.updated_at < 1.month.ago %>
+          <p>Updated <%= ((Time.current - repo.updated_at) / 1.day).round %> days ago</p>
+        <% elsif repo.updated_at < 1.month.ago %>
+          <p>Updated on <%= repo.updated_at.strftime('%b %e') %></p>
+        <% else %>
+          <p>Updated on <%= repo.updated_at.strftime('%b %e, %Y') %></p>
+        <% end %>
+      </div>
+    </li>
+  <% end %>
+</ul>

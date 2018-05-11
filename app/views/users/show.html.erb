@@ -24,9 +24,9 @@
       <div class="counter">
         <%= @profile.user.public_repos %>
       </div>
-      <%= link_to 'Stars', "/#{@profile.user.login}" %>
+      <%= link_to 'Stars', "/#{@profile.user.login}?tab=stars" %>
       <div class="counter">
-        0
+        <%= @profile.star_count %>
       </div>
       <%= link_to 'Followers', "/#{@profile.user.login}?tab=followers" %>
       <div class="counter">
@@ -42,6 +42,8 @@
     <% case params[:tab] %>
     <% when 'repositories' %>
       <%= render partial: '/users/repositories_tab' %>
+    <% when 'stars' %>
+      <%= render partial: '/users/starred_tab' %>
     <% when 'followers' %>
       <%= render partial: '/users/followers_tab' %>
     <% when 'following' %>

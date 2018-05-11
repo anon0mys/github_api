@@ -26,6 +26,18 @@ describe ProfilePresenter do
         expect(subject.build_profile(params).first).to be_a Repository
       end
 
+      it 'creates an array of starred repositories when params includes starred' do
+        params = { tab: 'stars', username: 'username' }
+        stub_request(:get, 'https://api.github.com/users/username')
+          .to_return(status: 200, body: File.read('./spec/fixtures/json/profile_with_bio.json'))
+
+        stub_request(:get, 'https://api.github.com/users/username/starred')
+          .to_return(status: 200, body: File.read('./spec/fixtures/json/starred.json'))
+
+        expect(subject.build_profile(params)).to be_an Array
+        expect(subject.build_profile(params).first).to be_a Repository
+      end
+
       it 'creates an array of followers when params includes followers' do
         params = { tab: 'followers', username: 'username' }
         stub_request(:get, 'https://api.github.com/users/username')
@@ -48,6 +60,29 @@ describe ProfilePresenter do
 
         expect(subject.build_profile(params)).to be_an Array
         expect(subject.build_profile(params).first).to be_a GithubUser
+      end
+
+      it 'creates an overview when there are no params' do
+        params = { username: 'username' }
+        stub_request(:get, 'https://api.github.com/users/username')
+          .to_return(status: 200, body: File.read('./spec/fixtures/json/profile_with_bio.json'))
+
+        stub_request(:get, 'https://api.github.com/users/username/repos')
+          .to_return(status: 200, body: File.read('./spec/fixtures/json/repos.json'))
+
+        stub_request(:get, 'https://api.github.com/users/username/events')
+          .to_return(status: 200, body: File.read('./spec/fixtures/json/events.json'))
+
+        overview = subject.build_profile(params)
+
+        expect(overview).to be_an Overview
+
+        expect(overview.pinned_repos).to be_an Array
+        expect(overview.pinned_repos.first).to be_a Repository
+        expect(overview.pinned_repos.count).to eq(6)
+
+        expect(overview.contributions).to be_an Array
+        expect(overview.contributions.first).to be_an Event
       end
     end
   end

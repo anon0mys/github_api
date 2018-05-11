@@ -5,11 +5,11 @@
     <% else %>
       <%= image_tag @profile.user.avatar, class: 'avatar'%>
     <% end %>
-    <%= @profile.user.name %>
-    <%= @profile.user.login %>
+    <h4 class='profile-name'><%= @profile.user.name %></h4>
+    <p class='profile-username'><%= @profile.user.login %></p>
     <% if current_user.uid == @profile.user.uid %>
       <% if @profile.user.bio.nil? %>
-        <%= link_to 'Add Bio', '/' %>
+        <%= button_to 'Add Bio', '/', class: 'bio-button'%>
       <% else %>
         <%= @profile.user.bio %>
       <% end %>
@@ -17,39 +17,49 @@
       <%= link_to 'Follow', '/' %>
     <% end %>
   </div>
-  <section>
+  <main class='profile-body'>
     <div class="profile-links">
-      <%= link_to 'Overview', "/#{@profile.user.login}" %>
-      <%= link_to 'Repositories', "/#{@profile.user.login}?tab=repositories" %>
-      <div class="counter">
-        <%= @profile.user.public_repos %>
+      <div class="linko ">
+        <%= link_to 'Overview', "/#{@profile.user.login}" %>
       </div>
-      <%= link_to 'Stars', "/#{@profile.user.login}?tab=stars" %>
-      <div class="counter">
-        <%= @profile.star_count %>
+      <div class="link">
+        <%= link_to 'Repositories', "/#{@profile.user.login}?tab=repositories" %>
+        <div class="counter">
+          <%= @profile.user.public_repos %>
+        </div>
       </div>
-      <%= link_to 'Followers', "/#{@profile.user.login}?tab=followers" %>
-      <div class="counter">
-        <%= @profile.user.followers %>
+      <div class="link">
+        <%= link_to 'Stars', "/#{@profile.user.login}?tab=stars" %>
+        <div class="counter">
+          <%= @profile.star_count %>
+        </div>
       </div>
-      <%= link_to 'Following', "/#{@profile.user.login}?tab=following" %>
-      <div class='counter'>
-        <%= @profile.user.following %>
+      <div class="link">
+        <%= link_to 'Followers', "/#{@profile.user.login}?tab=followers" %>
+        <div class="counter">
+          <%= @profile.user.followers %>
+        </div>
+      </div>
+      <div class="link">
+        <%= link_to 'Following', "/#{@profile.user.login}?tab=following" %>
+        <div class='counter'>
+          <%= @profile.user.following %>
+        </div>
       </div>
     </div>
-  </section>
-  <main>
-    <% case params[:tab] %>
-    <% when 'repositories' %>
-      <%= render partial: '/users/repositories_tab' %>
-    <% when 'stars' %>
-      <%= render partial: '/users/starred_tab' %>
-    <% when 'followers' %>
-      <%= render partial: '/users/followers_tab' %>
-    <% when 'following' %>
-      <%= render partial: '/users/following_tab' %>
-    <% else %>
-      <%= render partial: '/users/overview_tab' %>
-    <% end %>
+    <section>
+      <% case params[:tab] %>
+      <% when 'repositories' %>
+        <%= render partial: '/users/repositories_tab' %>
+      <% when 'stars' %>
+        <%= render partial: '/users/starred_tab' %>
+      <% when 'followers' %>
+        <%= render partial: '/users/followers_tab' %>
+      <% when 'following' %>
+        <%= render partial: '/users/following_tab' %>
+      <% else %>
+        <%= render partial: '/users/overview_tab' %>
+      <% end %>
+    </section>
   </main>
 </div>

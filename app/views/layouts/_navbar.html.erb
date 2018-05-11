@@ -1,7 +1,7 @@
 <nav>
   <div class="main-menu">
     <div class="logo">
-      <%= image_tag asset_path 'GitHub-Mark-Light-32px.png' %>
+      <%= link_to image_tag('GitHub-Mark-Light-32px.png'), root_path %>
     </div>
     <%= form_tag('/', :method => "get") do %>
       <%= text_field_tag :search, params[:search], placeholder: 'Search GitHub', class: 'search logged-in' %>
@@ -17,7 +17,11 @@
     <%= link_to image_tag('bell.svg'), github_login_path, class: 'notification-bell' %>
     <%= link_to image_tag('plus.svg'), github_login_path, class: 'plus-dropdown' %>
     <div class="profile-dropdown">
-      <%= image_tag current_user.avatar, class: 'avatar-icon' %>
+      <% if current_user.avatar.nil? %>
+        <%= image_tag "https://avatars2.githubusercontent.com/u/34108893?v=4", class: 'avatar-icon' %>
+      <% else %>
+        <%= image_tag current_user.avatar, class: 'avatar-icon' %>
+      <% end %>
         <div class="dropdown-menu">
           <ul class="dropdown-links">
             <h4>Signed in as</h4>

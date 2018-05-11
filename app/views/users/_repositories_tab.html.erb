@@ -1,0 +1,30 @@
+<div class='repo-search'>
+
+</div>
+<ul class='repo-list'>
+  <% @profile.repos.each do |repo| %>
+    <li class='repo-item'>
+      <%= link_to repo.name %>
+      <% unless repo.description.nil? %>
+        <%= repo.description %>
+      <% end %>
+      <div class="repo-attributes">
+        <% unless repo.language.nil? %>
+          dot
+          <%= repo.language %>
+        <% end %>
+        <% unless repo.forks_count.zero? %>
+          fork
+          <%= repo.forks_count %>
+        <% end %>
+        <% if repo.updated_at < 1.month.ago %>
+          <p>Updated <%= ((Time.current - repo.updated_at) / 1.day).round %> days ago</p>
+        <% elsif repo.updated_at < 1.month.ago %>
+          <p>Updated on <%= repo.updated_at.strftime('%b %e') %></p>
+        <% else %>
+          <p>Updated on <%= repo.updated_at.strftime('%b %e, %Y') %></p>
+        <% end %>
+      </div>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,13 @@
+<ul class='follower-list'>
+  <% @profile.followers.each do |follower| %>
+    <li class='follower-item'>
+      <div class="avatar-thumbnail">
+        <%= link_to image_tag(follower.avatar), "/#{follower.login}" %>
+      </div>
+      <div class="follower-info">
+        <%= follower.login %>
+      </div>
+      <%= button_to 'Follow', "/#{follower.login}" %>
+    </li>
+  <% end %>
+</ul>

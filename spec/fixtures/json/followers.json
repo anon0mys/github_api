@@ -1,0 +1,40 @@
+[
+  {
+    "login": "jamesrnelson",
+    "id": 34174321,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/34174321?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jamesrnelson",
+    "html_url": "https://github.com/jamesrnelson",
+    "followers_url": "https://api.github.com/users/jamesrnelson/followers",
+    "following_url": "https://api.github.com/users/jamesrnelson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jamesrnelson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jamesrnelson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jamesrnelson/subscriptions",
+    "organizations_url": "https://api.github.com/users/jamesrnelson/orgs",
+    "repos_url": "https://api.github.com/users/jamesrnelson/repos",
+    "events_url": "https://api.github.com/users/jamesrnelson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jamesrnelson/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "nergdnvlt",
+    "id": 33960735,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33960735?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nergdnvlt",
+    "html_url": "https://github.com/nergdnvlt",
+    "followers_url": "https://api.github.com/users/nergdnvlt/followers",
+    "following_url": "https://api.github.com/users/nergdnvlt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nergdnvlt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nergdnvlt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nergdnvlt/subscriptions",
+    "organizations_url": "https://api.github.com/users/nergdnvlt/orgs",
+    "repos_url": "https://api.github.com/users/nergdnvlt/repos",
+    "events_url": "https://api.github.com/users/nergdnvlt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nergdnvlt/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+]

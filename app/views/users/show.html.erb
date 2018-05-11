@@ -1,0 +1,55 @@
+<div class="profile-main">
+  <div class="profile-card">
+    <% if @profile.user.avatar.nil? %>
+      <%= image_tag "https://avatars2.githubusercontent.com/u/34108893?v=4", class: 'avatar' %>
+    <% else %>
+      <%= image_tag @profile.user.avatar, class: 'avatar'%>
+    <% end %>
+    <%= @profile.user.name %>
+    <%= @profile.user.login %>
+    <% if current_user.uid == @profile.user.uid %>
+      <% if @profile.user.bio.nil? %>
+        <%= link_to 'Add Bio', '/' %>
+      <% else %>
+        <%= @profile.user.bio %>
+      <% end %>
+    <% else %>
+      <%= link_to 'Follow', '/' %>
+    <% end %>
+  </div>
+  <section>
+    <div class="profile-links">
+      <%= link_to 'Overview', "/#{@profile.user.login}" %>
+      <%= link_to 'Repositories', "/#{@profile.user.login}?tab=repositories" %>
+      <div class="counter">
+        <%= @profile.user.public_repos %>
+      </div>
+      <%= link_to 'Stars', "/#{@profile.user.login}?tab=stars" %>
+      <div class="counter">
+        <%= @profile.star_count %>
+      </div>
+      <%= link_to 'Followers', "/#{@profile.user.login}?tab=followers" %>
+      <div class="counter">
+        <%= @profile.user.followers %>
+      </div>
+      <%= link_to 'Following', "/#{@profile.user.login}?tab=following" %>
+      <div class='counter'>
+        <%= @profile.user.following %>
+      </div>
+    </div>
+  </section>
+  <main>
+    <% case params[:tab] %>
+    <% when 'repositories' %>
+      <%= render partial: '/users/repositories_tab' %>
+    <% when 'stars' %>
+      <%= render partial: '/users/starred_tab' %>
+    <% when 'followers' %>
+      <%= render partial: '/users/followers_tab' %>
+    <% when 'following' %>
+      <%= render partial: '/users/following_tab' %>
+    <% else %>
+      <%= render partial: '/users/overview_tab' %>
+    <% end %>
+  </main>
+</div>

@@ -1,0 +1,2477 @@
+[
+  {
+    "id": "7659550311",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2555844972,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "327c6f3d9f7e3adebef21848c1260ee06cc4080a",
+      "before": "e6ce091f86da448ada1e4a1ecafb00c7e7ab58c8",
+      "commits": [
+        {
+          "sha": "327c6f3d9f7e3adebef21848c1260ee06cc4080a",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Refactor for services to move api request and parsing into parent class",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/327c6f3d9f7e3adebef21848c1260ee06cc4080a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-11T07:06:40Z"
+  },
+  {
+    "id": "7659468536",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2555801420,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "e6ce091f86da448ada1e4a1ecafb00c7e7ab58c8",
+      "before": "4eee867af7b7d111870271435569027b3e0b9e0a",
+      "commits": [
+        {
+          "sha": "e6ce091f86da448ada1e4a1ecafb00c7e7ab58c8",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds following search service, updates presenter, and adds view partial",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/e6ce091f86da448ada1e4a1ecafb00c7e7ab58c8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-11T06:42:28Z"
+  },
+  {
+    "id": "7659432070",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2555782284,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "4eee867af7b7d111870271435569027b3e0b9e0a",
+      "before": "eb8a314d52fc40f9b74cca332709c177ad12c9cf",
+      "commits": [
+        {
+          "sha": "4eee867af7b7d111870271435569027b3e0b9e0a",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds followers search service, and view partial",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/4eee867af7b7d111870271435569027b3e0b9e0a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-11T06:31:10Z"
+  },
+  {
+    "id": "7659386836",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2555757781,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/landing-page",
+      "head": "eb8a314d52fc40f9b74cca332709c177ad12c9cf",
+      "before": "a2bcb35f17c3880f41786b432b1bbe348f42a2f1",
+      "commits": [
+        {
+          "sha": "1068e758f5ea5edbd74901175c210e24c5f9326e",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Creates repository search service, model, adds presenter object, builds repo view",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/1068e758f5ea5edbd74901175c210e24c5f9326e"
+        },
+        {
+          "sha": "eb8a314d52fc40f9b74cca332709c177ad12c9cf",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Styling for nav and profile pages",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/eb8a314d52fc40f9b74cca332709c177ad12c9cf"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-11T06:16:14Z"
+  },
+  {
+    "id": "7657292793",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2554617709,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "a2bcb35f17c3880f41786b432b1bbe348f42a2f1",
+      "before": "cc72f52ec80f8e32ec436eae56db1e32efc76964",
+      "commits": [
+        {
+          "sha": "a2bcb35f17c3880f41786b432b1bbe348f42a2f1",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds profile dropdown to navbar",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/a2bcb35f17c3880f41786b432b1bbe348f42a2f1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-10T19:09:26Z"
+  },
+  {
+    "id": "7656596838",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2554253229,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "cc72f52ec80f8e32ec436eae56db1e32efc76964",
+      "before": "85692f5949965a8917eaf7c2b72e53a9191d3b42",
+      "commits": [
+        {
+          "sha": "cc72f52ec80f8e32ec436eae56db1e32efc76964",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds profile links to profile page",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/cc72f52ec80f8e32ec436eae56db1e32efc76964"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-10T16:48:46Z"
+  },
+  {
+    "id": "7656579784",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2554244326,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "85692f5949965a8917eaf7c2b72e53a9191d3b42",
+      "before": "b61c2d1869ce5e909ba521bfa4c2576a3f67ea85",
+      "commits": [
+        {
+          "sha": "85692f5949965a8917eaf7c2b72e53a9191d3b42",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Refactored users controller to move service into its own file",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/85692f5949965a8917eaf7c2b72e53a9191d3b42"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-10T16:45:18Z"
+  },
+  {
+    "id": "7656466918",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2554184923,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "b61c2d1869ce5e909ba521bfa4c2576a3f67ea85",
+      "before": "a64b7d1ac774252a006392ba9f0af4e26bf69cc1",
+      "commits": [
+        {
+          "sha": "b61c2d1869ce5e909ba521bfa4c2576a3f67ea85",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Fixes webmock, adds bio and add bio button on profile page",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/b61c2d1869ce5e909ba521bfa4c2576a3f67ea85"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-10T16:22:26Z"
+  },
+  {
+    "id": "7656176722",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2554033737,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/landing-page",
+      "head": "a64b7d1ac774252a006392ba9f0af4e26bf69cc1",
+      "before": "7d7a5f9c84f7854a06cdcfc4a34e7bfde9c7a61a",
+      "commits": [
+        {
+          "sha": "a64b7d1ac774252a006392ba9f0af4e26bf69cc1",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Creates github user model",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/a64b7d1ac774252a006392ba9f0af4e26bf69cc1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-10T15:28:55Z"
+  },
+  {
+    "id": "7653411882",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2552553706,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/landing-page",
+      "head": "7d7a5f9c84f7854a06cdcfc4a34e7bfde9c7a61a",
+      "before": "ce47b78847dfe173e3c84406a93f0320843c7c6d",
+      "commits": [
+        {
+          "sha": "d37ffcbfef212b5569b933382dd29d1d07a38c44",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Layout styling and assets for logged out and logged in navbars",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/d37ffcbfef212b5569b933382dd29d1d07a38c44"
+        },
+        {
+          "sha": "7d7a5f9c84f7854a06cdcfc4a34e7bfde9c7a61a",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "User profile api setup",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/7d7a5f9c84f7854a06cdcfc4a34e7bfde9c7a61a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-10T03:48:37Z"
+  },
+  {
+    "id": "7644439588",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "ref": "landing-page",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-05-08T15:28:36Z"
+  },
+  {
+    "id": "7641368134",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "ref": "omniauth",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-05-08T04:27:36Z"
+  },
+  {
+    "id": "7641361901",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2546163821,
+      "size": 4,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f5b8f1b5008226027763a7f7d77609f8770be9bd",
+      "before": "305139f15495ad5f2a933dd196c69efa27a8fd56",
+      "commits": [
+        {
+          "sha": "f86d6d75a88750c79f8a3da997faeec4616205b8",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds omniauth and figaro configuration for OAuth and ENV secrets",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/f86d6d75a88750c79f8a3da997faeec4616205b8"
+        },
+        {
+          "sha": "ae1c7423d839e219e5866e109b3884f25745cba4",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds test suite, login workflow, sessions controller",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/ae1c7423d839e219e5866e109b3884f25745cba4"
+        },
+        {
+          "sha": "73f22eab00273b831e2a9601b8b793e7dd056b3d",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds user model, routes, current user auth",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/73f22eab00273b831e2a9601b8b793e7dd056b3d"
+        },
+        {
+          "sha": "f5b8f1b5008226027763a7f7d77609f8770be9bd",
+          "author": {
+            "email": "34108893+anon0mys@users.noreply.github.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Merge pull request #1 from anon0mys/omniauth\n\nOmniauth Implementation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/f5b8f1b5008226027763a7f7d77609f8770be9bd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-08T04:24:51Z"
+  },
+  {
+    "id": "7641361885",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1,
+      "pull_request": {
+        "url": "https://api.github.com/repos/anon0mys/github_api/pulls/1",
+        "id": 186523366,
+        "html_url": "https://github.com/anon0mys/github_api/pull/1",
+        "diff_url": "https://github.com/anon0mys/github_api/pull/1.diff",
+        "patch_url": "https://github.com/anon0mys/github_api/pull/1.patch",
+        "issue_url": "https://api.github.com/repos/anon0mys/github_api/issues/1",
+        "number": 1,
+        "state": "closed",
+        "locked": false,
+        "title": "Omniauth Implementation",
+        "user": {
+          "login": "anon0mys",
+          "id": 34108893,
+          "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/anon0mys",
+          "html_url": "https://github.com/anon0mys",
+          "followers_url": "https://api.github.com/users/anon0mys/followers",
+          "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+          "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+          "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+          "repos_url": "https://api.github.com/users/anon0mys/repos",
+          "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "Adds omniauth, user model, and sessions",
+        "created_at": "2018-05-08T04:23:16Z",
+        "updated_at": "2018-05-08T04:24:50Z",
+        "closed_at": "2018-05-08T04:24:50Z",
+        "merged_at": "2018-05-08T04:24:50Z",
+        "merge_commit_sha": "f5b8f1b5008226027763a7f7d77609f8770be9bd",
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "requested_reviewers": [
+
+        ],
+        "requested_teams": [
+
+        ],
+        "labels": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/anon0mys/github_api/pulls/1/commits",
+        "review_comments_url": "https://api.github.com/repos/anon0mys/github_api/pulls/1/comments",
+        "review_comment_url": "https://api.github.com/repos/anon0mys/github_api/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/anon0mys/github_api/issues/1/comments",
+        "statuses_url": "https://api.github.com/repos/anon0mys/github_api/statuses/73f22eab00273b831e2a9601b8b793e7dd056b3d",
+        "head": {
+          "label": "anon0mys:omniauth",
+          "ref": "omniauth",
+          "sha": "73f22eab00273b831e2a9601b8b793e7dd056b3d",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 132538925,
+            "name": "github_api",
+            "full_name": "anon0mys/github_api",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/github_api",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/github_api",
+            "forks_url": "https://api.github.com/repos/anon0mys/github_api/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/github_api/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/github_api/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/github_api/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/github_api/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/github_api/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/github_api/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/github_api/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/github_api/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/github_api/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/github_api/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/github_api/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/github_api/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/github_api/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/github_api/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/github_api/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/github_api/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/github_api/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/github_api/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/github_api/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/github_api/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/github_api/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/github_api/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/github_api/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/github_api/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/github_api/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/github_api/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/github_api/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/github_api/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/github_api/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/github_api/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/github_api/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/github_api/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/github_api/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/github_api/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/github_api/deployments",
+            "created_at": "2018-05-08T01:54:01Z",
+            "updated_at": "2018-05-08T01:54:28Z",
+            "pushed_at": "2018-05-08T04:24:50Z",
+            "git_url": "git://github.com/anon0mys/github_api.git",
+            "ssh_url": "git@github.com:anon0mys/github_api.git",
+            "clone_url": "https://github.com/anon0mys/github_api.git",
+            "svn_url": "https://github.com/anon0mys/github_api",
+            "homepage": null,
+            "size": 22,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 0,
+            "license": null,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "anon0mys:master",
+          "ref": "master",
+          "sha": "305139f15495ad5f2a933dd196c69efa27a8fd56",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 132538925,
+            "name": "github_api",
+            "full_name": "anon0mys/github_api",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/github_api",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/github_api",
+            "forks_url": "https://api.github.com/repos/anon0mys/github_api/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/github_api/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/github_api/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/github_api/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/github_api/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/github_api/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/github_api/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/github_api/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/github_api/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/github_api/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/github_api/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/github_api/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/github_api/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/github_api/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/github_api/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/github_api/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/github_api/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/github_api/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/github_api/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/github_api/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/github_api/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/github_api/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/github_api/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/github_api/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/github_api/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/github_api/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/github_api/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/github_api/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/github_api/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/github_api/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/github_api/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/github_api/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/github_api/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/github_api/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/github_api/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/github_api/deployments",
+            "created_at": "2018-05-08T01:54:01Z",
+            "updated_at": "2018-05-08T01:54:28Z",
+            "pushed_at": "2018-05-08T04:24:50Z",
+            "git_url": "git://github.com/anon0mys/github_api.git",
+            "ssh_url": "git@github.com:anon0mys/github_api.git",
+            "clone_url": "https://github.com/anon0mys/github_api.git",
+            "svn_url": "https://github.com/anon0mys/github_api",
+            "homepage": null,
+            "size": 22,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 0,
+            "license": null,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/1"
+          },
+          "html": {
+            "href": "https://github.com/anon0mys/github_api/pull/1"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/issues/1"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/issues/1/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/1/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/1/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/statuses/73f22eab00273b831e2a9601b8b793e7dd056b3d"
+          }
+        },
+        "author_association": "OWNER",
+        "merged": true,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "anon0mys",
+          "id": 34108893,
+          "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/anon0mys",
+          "html_url": "https://github.com/anon0mys",
+          "followers_url": "https://api.github.com/users/anon0mys/followers",
+          "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+          "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+          "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+          "repos_url": "https://api.github.com/users/anon0mys/repos",
+          "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 3,
+        "additions": 359,
+        "deletions": 1,
+        "changed_files": 20
+      }
+    },
+    "public": true,
+    "created_at": "2018-05-08T04:24:51Z"
+  },
+  {
+    "id": "7641358223",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 1,
+      "pull_request": {
+        "url": "https://api.github.com/repos/anon0mys/github_api/pulls/1",
+        "id": 186523366,
+        "html_url": "https://github.com/anon0mys/github_api/pull/1",
+        "diff_url": "https://github.com/anon0mys/github_api/pull/1.diff",
+        "patch_url": "https://github.com/anon0mys/github_api/pull/1.patch",
+        "issue_url": "https://api.github.com/repos/anon0mys/github_api/issues/1",
+        "number": 1,
+        "state": "open",
+        "locked": false,
+        "title": "Omniauth Implementation",
+        "user": {
+          "login": "anon0mys",
+          "id": 34108893,
+          "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/anon0mys",
+          "html_url": "https://github.com/anon0mys",
+          "followers_url": "https://api.github.com/users/anon0mys/followers",
+          "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+          "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+          "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+          "repos_url": "https://api.github.com/users/anon0mys/repos",
+          "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "Adds omniauth, user model, and sessions",
+        "created_at": "2018-05-08T04:23:16Z",
+        "updated_at": "2018-05-08T04:23:16Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "requested_reviewers": [
+
+        ],
+        "requested_teams": [
+
+        ],
+        "labels": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/anon0mys/github_api/pulls/1/commits",
+        "review_comments_url": "https://api.github.com/repos/anon0mys/github_api/pulls/1/comments",
+        "review_comment_url": "https://api.github.com/repos/anon0mys/github_api/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/anon0mys/github_api/issues/1/comments",
+        "statuses_url": "https://api.github.com/repos/anon0mys/github_api/statuses/73f22eab00273b831e2a9601b8b793e7dd056b3d",
+        "head": {
+          "label": "anon0mys:omniauth",
+          "ref": "omniauth",
+          "sha": "73f22eab00273b831e2a9601b8b793e7dd056b3d",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 132538925,
+            "name": "github_api",
+            "full_name": "anon0mys/github_api",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/github_api",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/github_api",
+            "forks_url": "https://api.github.com/repos/anon0mys/github_api/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/github_api/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/github_api/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/github_api/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/github_api/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/github_api/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/github_api/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/github_api/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/github_api/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/github_api/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/github_api/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/github_api/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/github_api/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/github_api/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/github_api/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/github_api/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/github_api/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/github_api/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/github_api/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/github_api/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/github_api/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/github_api/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/github_api/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/github_api/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/github_api/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/github_api/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/github_api/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/github_api/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/github_api/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/github_api/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/github_api/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/github_api/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/github_api/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/github_api/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/github_api/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/github_api/deployments",
+            "created_at": "2018-05-08T01:54:01Z",
+            "updated_at": "2018-05-08T01:54:28Z",
+            "pushed_at": "2018-05-08T04:21:29Z",
+            "git_url": "git://github.com/anon0mys/github_api.git",
+            "ssh_url": "git@github.com:anon0mys/github_api.git",
+            "clone_url": "https://github.com/anon0mys/github_api.git",
+            "svn_url": "https://github.com/anon0mys/github_api",
+            "homepage": null,
+            "size": 22,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 1,
+            "license": null,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "anon0mys:master",
+          "ref": "master",
+          "sha": "305139f15495ad5f2a933dd196c69efa27a8fd56",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 132538925,
+            "name": "github_api",
+            "full_name": "anon0mys/github_api",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/github_api",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/github_api",
+            "forks_url": "https://api.github.com/repos/anon0mys/github_api/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/github_api/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/github_api/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/github_api/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/github_api/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/github_api/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/github_api/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/github_api/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/github_api/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/github_api/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/github_api/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/github_api/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/github_api/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/github_api/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/github_api/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/github_api/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/github_api/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/github_api/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/github_api/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/github_api/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/github_api/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/github_api/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/github_api/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/github_api/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/github_api/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/github_api/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/github_api/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/github_api/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/github_api/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/github_api/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/github_api/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/github_api/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/github_api/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/github_api/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/github_api/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/github_api/deployments",
+            "created_at": "2018-05-08T01:54:01Z",
+            "updated_at": "2018-05-08T01:54:28Z",
+            "pushed_at": "2018-05-08T04:21:29Z",
+            "git_url": "git://github.com/anon0mys/github_api.git",
+            "ssh_url": "git@github.com:anon0mys/github_api.git",
+            "clone_url": "https://github.com/anon0mys/github_api.git",
+            "svn_url": "https://github.com/anon0mys/github_api",
+            "homepage": null,
+            "size": 22,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 1,
+            "license": null,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/1"
+          },
+          "html": {
+            "href": "https://github.com/anon0mys/github_api/pull/1"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/issues/1"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/issues/1/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/1/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/pulls/1/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/anon0mys/github_api/statuses/73f22eab00273b831e2a9601b8b793e7dd056b3d"
+          }
+        },
+        "author_association": "OWNER",
+        "merged": false,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 3,
+        "additions": 359,
+        "deletions": 1,
+        "changed_files": 20
+      }
+    },
+    "public": true,
+    "created_at": "2018-05-08T04:23:16Z"
+  },
+  {
+    "id": "7641354197",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "push_id": 2546159419,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/omniauth",
+      "head": "73f22eab00273b831e2a9601b8b793e7dd056b3d",
+      "before": "f86d6d75a88750c79f8a3da997faeec4616205b8",
+      "commits": [
+        {
+          "sha": "ae1c7423d839e219e5866e109b3884f25745cba4",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds test suite, login workflow, sessions controller",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/ae1c7423d839e219e5866e109b3884f25745cba4"
+        },
+        {
+          "sha": "73f22eab00273b831e2a9601b8b793e7dd056b3d",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds user model, routes, current user auth",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/github_api/commits/73f22eab00273b831e2a9601b8b793e7dd056b3d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-08T04:21:29Z"
+  },
+  {
+    "id": "7641007370",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "ref": "omniauth",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-05-08T02:07:00Z"
+  },
+  {
+    "id": "7640972077",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "ref": "master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-05-08T01:54:27Z"
+  },
+  {
+    "id": "7640970886",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 132538925,
+      "name": "anon0mys/github_api",
+      "url": "https://api.github.com/repos/anon0mys/github_api"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "master",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-05-08T01:54:01Z"
+  },
+  {
+    "id": "7633456599",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131056472,
+      "name": "anon0mys/classy-colorado",
+      "url": "https://api.github.com/repos/anon0mys/classy-colorado"
+    },
+    "payload": {
+      "push_id": 2541815653,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "cbc702a99f91b935333a1f549fa1875f25e36490",
+      "before": "883e6d3028f8904aecdf4f2d0486265660826dd0",
+      "commits": [
+        {
+          "sha": "cbc702a99f91b935333a1f549fa1875f25e36490",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Adds featured post flag, and creates featured post list on index page",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/classy-colorado/commits/cbc702a99f91b935333a1f549fa1875f25e36490"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-06T05:28:09Z"
+  },
+  {
+    "id": "7633405716",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131056472,
+      "name": "anon0mys/classy-colorado",
+      "url": "https://api.github.com/repos/anon0mys/classy-colorado"
+    },
+    "payload": {
+      "push_id": 2541782362,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "883e6d3028f8904aecdf4f2d0486265660826dd0",
+      "before": "135d05ee2403ac477879b3add2fd5cdeff2fc938",
+      "commits": [
+        {
+          "sha": "883e6d3028f8904aecdf4f2d0486265660826dd0",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Rewording for feature test titles",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/classy-colorado/commits/883e6d3028f8904aecdf4f2d0486265660826dd0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-06T04:35:27Z"
+  },
+  {
+    "id": "7631502118",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 130315915,
+      "name": "anon0mys/nature-as-it-comes",
+      "url": "https://api.github.com/repos/anon0mys/nature-as-it-comes"
+    },
+    "payload": {
+      "push_id": 2540568904,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "bc9e3578a6e318329b0fb8ce816ff3a927f2a15b",
+      "before": "5ddcc139053afda0763140829459fefe536bc316",
+      "commits": [
+        {
+          "sha": "bc9e3578a6e318329b0fb8ce816ff3a927f2a15b",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Added homepage layout, header and footer partials, starts testing for user auth",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/nature-as-it-comes/commits/bc9e3578a6e318329b0fb8ce816ff3a927f2a15b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-05T02:39:53Z"
+  },
+  {
+    "id": "7631453799",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 130315915,
+      "name": "anon0mys/nature-as-it-comes",
+      "url": "https://api.github.com/repos/anon0mys/nature-as-it-comes"
+    },
+    "payload": {
+      "push_id": 2540539094,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "5ddcc139053afda0763140829459fefe536bc316",
+      "before": "7e4167d3e92fbbc2b988982d4be29b3331ecc5cc",
+      "commits": [
+        {
+          "sha": "5ddcc139053afda0763140829459fefe536bc316",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Devise framework for aurth, added user model and all of devise views",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/nature-as-it-comes/commits/5ddcc139053afda0763140829459fefe536bc316"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-05T01:59:00Z"
+  },
+  {
+    "id": "7629310160",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131646904,
+      "name": "anon0mys/rales_engine",
+      "url": "https://api.github.com/repos/anon0mys/rales_engine"
+    },
+    "payload": {
+      "ref": "readme_tweaks",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-05-04T15:39:07Z"
+  },
+  {
+    "id": "7629309982",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131646904,
+      "name": "anon0mys/rales_engine",
+      "url": "https://api.github.com/repos/anon0mys/rales_engine"
+    },
+    "payload": {
+      "push_id": 2539391165,
+      "size": 2,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "9f1cc18366d9116730fc3feaff5d0f2b9ef91fec",
+      "before": "2a94222c3fb8d2db00d0efff9e291203943165ac",
+      "commits": [
+        {
+          "sha": "b075feaa2f20e99c06995b412af983f422dc1324",
+          "author": {
+            "email": "tylerlundgren@yahoo.com",
+            "name": "nergdvnlt"
+          },
+          "message": "Adding tweaks to readme.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/b075feaa2f20e99c06995b412af983f422dc1324"
+        },
+        {
+          "sha": "9f1cc18366d9116730fc3feaff5d0f2b9ef91fec",
+          "author": {
+            "email": "34108893+anon0mys@users.noreply.github.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Merge pull request #57 from anon0mys/readme_tweaks\n\nAdding tweaks to readme.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/9f1cc18366d9116730fc3feaff5d0f2b9ef91fec"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-04T15:39:05Z"
+  },
+  {
+    "id": "7629309946",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131646904,
+      "name": "anon0mys/rales_engine",
+      "url": "https://api.github.com/repos/anon0mys/rales_engine"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 57,
+      "pull_request": {
+        "url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/57",
+        "id": 186020279,
+        "html_url": "https://github.com/anon0mys/rales_engine/pull/57",
+        "diff_url": "https://github.com/anon0mys/rales_engine/pull/57.diff",
+        "patch_url": "https://github.com/anon0mys/rales_engine/pull/57.patch",
+        "issue_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/57",
+        "number": 57,
+        "state": "closed",
+        "locked": false,
+        "title": "Adding tweaks to readme.",
+        "user": {
+          "login": "nergdnvlt",
+          "id": 33960735,
+          "avatar_url": "https://avatars1.githubusercontent.com/u/33960735?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/nergdnvlt",
+          "html_url": "https://github.com/nergdnvlt",
+          "followers_url": "https://api.github.com/users/nergdnvlt/followers",
+          "following_url": "https://api.github.com/users/nergdnvlt/following{/other_user}",
+          "gists_url": "https://api.github.com/users/nergdnvlt/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/nergdnvlt/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/nergdnvlt/subscriptions",
+          "organizations_url": "https://api.github.com/users/nergdnvlt/orgs",
+          "repos_url": "https://api.github.com/users/nergdnvlt/repos",
+          "events_url": "https://api.github.com/users/nergdnvlt/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/nergdnvlt/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2018-05-04T15:38:50Z",
+        "updated_at": "2018-05-04T15:39:04Z",
+        "closed_at": "2018-05-04T15:39:04Z",
+        "merged_at": "2018-05-04T15:39:04Z",
+        "merge_commit_sha": "9f1cc18366d9116730fc3feaff5d0f2b9ef91fec",
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "requested_reviewers": [
+
+        ],
+        "requested_teams": [
+
+        ],
+        "labels": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/57/commits",
+        "review_comments_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/57/comments",
+        "review_comment_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/57/comments",
+        "statuses_url": "https://api.github.com/repos/anon0mys/rales_engine/statuses/b075feaa2f20e99c06995b412af983f422dc1324",
+        "head": {
+          "label": "anon0mys:readme_tweaks",
+          "ref": "readme_tweaks",
+          "sha": "b075feaa2f20e99c06995b412af983f422dc1324",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131646904,
+            "name": "rales_engine",
+            "full_name": "anon0mys/rales_engine",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/rales_engine",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/rales_engine",
+            "forks_url": "https://api.github.com/repos/anon0mys/rales_engine/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/rales_engine/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/rales_engine/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/rales_engine/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/rales_engine/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/rales_engine/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/rales_engine/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/rales_engine/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/rales_engine/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/rales_engine/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/rales_engine/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/rales_engine/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/rales_engine/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/rales_engine/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/rales_engine/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/rales_engine/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/rales_engine/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/rales_engine/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/rales_engine/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/rales_engine/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/rales_engine/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/rales_engine/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/rales_engine/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/rales_engine/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/rales_engine/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/rales_engine/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/rales_engine/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/rales_engine/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/rales_engine/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/rales_engine/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/rales_engine/deployments",
+            "created_at": "2018-04-30T21:09:32Z",
+            "updated_at": "2018-05-04T15:19:10Z",
+            "pushed_at": "2018-05-04T15:39:04Z",
+            "git_url": "git://github.com/anon0mys/rales_engine.git",
+            "ssh_url": "git@github.com:anon0mys/rales_engine.git",
+            "clone_url": "https://github.com/anon0mys/rales_engine.git",
+            "svn_url": "https://github.com/anon0mys/rales_engine",
+            "homepage": null,
+            "size": 772,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 4,
+            "license": null,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "anon0mys:master",
+          "ref": "master",
+          "sha": "2a94222c3fb8d2db00d0efff9e291203943165ac",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131646904,
+            "name": "rales_engine",
+            "full_name": "anon0mys/rales_engine",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/rales_engine",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/rales_engine",
+            "forks_url": "https://api.github.com/repos/anon0mys/rales_engine/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/rales_engine/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/rales_engine/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/rales_engine/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/rales_engine/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/rales_engine/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/rales_engine/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/rales_engine/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/rales_engine/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/rales_engine/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/rales_engine/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/rales_engine/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/rales_engine/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/rales_engine/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/rales_engine/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/rales_engine/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/rales_engine/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/rales_engine/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/rales_engine/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/rales_engine/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/rales_engine/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/rales_engine/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/rales_engine/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/rales_engine/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/rales_engine/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/rales_engine/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/rales_engine/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/rales_engine/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/rales_engine/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/rales_engine/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/rales_engine/deployments",
+            "created_at": "2018-04-30T21:09:32Z",
+            "updated_at": "2018-05-04T15:19:10Z",
+            "pushed_at": "2018-05-04T15:39:04Z",
+            "git_url": "git://github.com/anon0mys/rales_engine.git",
+            "ssh_url": "git@github.com:anon0mys/rales_engine.git",
+            "clone_url": "https://github.com/anon0mys/rales_engine.git",
+            "svn_url": "https://github.com/anon0mys/rales_engine",
+            "homepage": null,
+            "size": 772,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 4,
+            "license": null,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/57"
+          },
+          "html": {
+            "href": "https://github.com/anon0mys/rales_engine/pull/57"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/issues/57"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/issues/57/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/57/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/57/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/statuses/b075feaa2f20e99c06995b412af983f422dc1324"
+          }
+        },
+        "author_association": "COLLABORATOR",
+        "merged": true,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "anon0mys",
+          "id": 34108893,
+          "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/anon0mys",
+          "html_url": "https://github.com/anon0mys",
+          "followers_url": "https://api.github.com/users/anon0mys/followers",
+          "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+          "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+          "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+          "repos_url": "https://api.github.com/users/anon0mys/repos",
+          "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 1,
+        "additions": 16,
+        "deletions": 1,
+        "changed_files": 2
+      }
+    },
+    "public": true,
+    "created_at": "2018-05-04T15:39:04Z"
+  },
+  {
+    "id": "7629198016",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131646904,
+      "name": "anon0mys/rales_engine",
+      "url": "https://api.github.com/repos/anon0mys/rales_engine"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 56,
+      "pull_request": {
+        "url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/56",
+        "id": 186014580,
+        "html_url": "https://github.com/anon0mys/rales_engine/pull/56",
+        "diff_url": "https://github.com/anon0mys/rales_engine/pull/56.diff",
+        "patch_url": "https://github.com/anon0mys/rales_engine/pull/56.patch",
+        "issue_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/56",
+        "number": 56,
+        "state": "open",
+        "locked": false,
+        "title": "Final bi queries",
+        "user": {
+          "login": "anon0mys",
+          "id": 34108893,
+          "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/anon0mys",
+          "html_url": "https://github.com/anon0mys",
+          "followers_url": "https://api.github.com/users/anon0mys/followers",
+          "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+          "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+          "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+          "repos_url": "https://api.github.com/users/anon0mys/repos",
+          "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2018-05-04T15:18:44Z",
+        "updated_at": "2018-05-04T15:18:44Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "requested_reviewers": [
+
+        ],
+        "requested_teams": [
+
+        ],
+        "labels": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/56/commits",
+        "review_comments_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/56/comments",
+        "review_comment_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/56/comments",
+        "statuses_url": "https://api.github.com/repos/anon0mys/rales_engine/statuses/37b74efcacb010235c5668641b6a6f6bd10e087a",
+        "head": {
+          "label": "anon0mys:final-bi-queries",
+          "ref": "final-bi-queries",
+          "sha": "37b74efcacb010235c5668641b6a6f6bd10e087a",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131646904,
+            "name": "rales_engine",
+            "full_name": "anon0mys/rales_engine",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/rales_engine",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/rales_engine",
+            "forks_url": "https://api.github.com/repos/anon0mys/rales_engine/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/rales_engine/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/rales_engine/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/rales_engine/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/rales_engine/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/rales_engine/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/rales_engine/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/rales_engine/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/rales_engine/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/rales_engine/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/rales_engine/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/rales_engine/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/rales_engine/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/rales_engine/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/rales_engine/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/rales_engine/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/rales_engine/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/rales_engine/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/rales_engine/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/rales_engine/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/rales_engine/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/rales_engine/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/rales_engine/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/rales_engine/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/rales_engine/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/rales_engine/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/rales_engine/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/rales_engine/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/rales_engine/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/rales_engine/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/rales_engine/deployments",
+            "created_at": "2018-04-30T21:09:32Z",
+            "updated_at": "2018-05-04T14:37:18Z",
+            "pushed_at": "2018-05-04T15:16:34Z",
+            "git_url": "git://github.com/anon0mys/rales_engine.git",
+            "ssh_url": "git@github.com:anon0mys/rales_engine.git",
+            "clone_url": "https://github.com/anon0mys/rales_engine.git",
+            "svn_url": "https://github.com/anon0mys/rales_engine",
+            "homepage": null,
+            "size": 771,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 5,
+            "license": null,
+            "forks": 0,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "anon0mys:master",
+          "ref": "master",
+          "sha": "423ee0bce8e62ecae50f2f992d18a190929476a3",
+          "user": {
+            "login": "anon0mys",
+            "id": 34108893,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/anon0mys",
+            "html_url": "https://github.com/anon0mys",
+            "followers_url": "https://api.github.com/users/anon0mys/followers",
+            "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+            "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+            "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+            "repos_url": "https://api.github.com/users/anon0mys/repos",
+            "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 131646904,
+            "name": "rales_engine",
+            "full_name": "anon0mys/rales_engine",
+            "owner": {
+              "login": "anon0mys",
+              "id": 34108893,
+              "avatar_url": "https://avatars2.githubusercontent.com/u/34108893?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/anon0mys",
+              "html_url": "https://github.com/anon0mys",
+              "followers_url": "https://api.github.com/users/anon0mys/followers",
+              "following_url": "https://api.github.com/users/anon0mys/following{/other_user}",
+              "gists_url": "https://api.github.com/users/anon0mys/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/anon0mys/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/anon0mys/subscriptions",
+              "organizations_url": "https://api.github.com/users/anon0mys/orgs",
+              "repos_url": "https://api.github.com/users/anon0mys/repos",
+              "events_url": "https://api.github.com/users/anon0mys/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/anon0mys/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/anon0mys/rales_engine",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/anon0mys/rales_engine",
+            "forks_url": "https://api.github.com/repos/anon0mys/rales_engine/forks",
+            "keys_url": "https://api.github.com/repos/anon0mys/rales_engine/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/anon0mys/rales_engine/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/anon0mys/rales_engine/teams",
+            "hooks_url": "https://api.github.com/repos/anon0mys/rales_engine/hooks",
+            "issue_events_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/anon0mys/rales_engine/events",
+            "assignees_url": "https://api.github.com/repos/anon0mys/rales_engine/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/anon0mys/rales_engine/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/anon0mys/rales_engine/tags",
+            "blobs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/anon0mys/rales_engine/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/anon0mys/rales_engine/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/anon0mys/rales_engine/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/anon0mys/rales_engine/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/anon0mys/rales_engine/languages",
+            "stargazers_url": "https://api.github.com/repos/anon0mys/rales_engine/stargazers",
+            "contributors_url": "https://api.github.com/repos/anon0mys/rales_engine/contributors",
+            "subscribers_url": "https://api.github.com/repos/anon0mys/rales_engine/subscribers",
+            "subscription_url": "https://api.github.com/repos/anon0mys/rales_engine/subscription",
+            "commits_url": "https://api.github.com/repos/anon0mys/rales_engine/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/anon0mys/rales_engine/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/anon0mys/rales_engine/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/anon0mys/rales_engine/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/anon0mys/rales_engine/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/anon0mys/rales_engine/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/anon0mys/rales_engine/merges",
+            "archive_url": "https://api.github.com/repos/anon0mys/rales_engine/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/anon0mys/rales_engine/downloads",
+            "issues_url": "https://api.github.com/repos/anon0mys/rales_engine/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/anon0mys/rales_engine/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/anon0mys/rales_engine/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/anon0mys/rales_engine/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/anon0mys/rales_engine/labels{/name}",
+            "releases_url": "https://api.github.com/repos/anon0mys/rales_engine/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/anon0mys/rales_engine/deployments",
+            "created_at": "2018-04-30T21:09:32Z",
+            "updated_at": "2018-05-04T14:37:18Z",
+            "pushed_at": "2018-05-04T15:16:34Z",
+            "git_url": "git://github.com/anon0mys/rales_engine.git",
+            "ssh_url": "git@github.com:anon0mys/rales_engine.git",
+            "clone_url": "https://github.com/anon0mys/rales_engine.git",
+            "svn_url": "https://github.com/anon0mys/rales_engine",
+            "homepage": null,
+            "size": 771,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 5,
+            "license": null,
+            "forks": 0,
+            "open_issues": 5,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/56"
+          },
+          "html": {
+            "href": "https://github.com/anon0mys/rales_engine/pull/56"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/issues/56"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/issues/56/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/56/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/pulls/56/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/anon0mys/rales_engine/statuses/37b74efcacb010235c5668641b6a6f6bd10e087a"
+          }
+        },
+        "author_association": "OWNER",
+        "merged": false,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 2,
+        "additions": 153,
+        "deletions": 18,
+        "changed_files": 10
+      }
+    },
+    "public": true,
+    "created_at": "2018-05-04T15:18:44Z"
+  },
+  {
+    "id": "7629186231",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131646904,
+      "name": "anon0mys/rales_engine",
+      "url": "https://api.github.com/repos/anon0mys/rales_engine"
+    },
+    "payload": {
+      "push_id": 2539326234,
+      "size": 5,
+      "distinct_size": 2,
+      "ref": "refs/heads/final-bi-queries",
+      "head": "37b74efcacb010235c5668641b6a6f6bd10e087a",
+      "before": "498c0cc5982c0e587cdc78ce493a828e80692dff",
+      "commits": [
+        {
+          "sha": "76575495bef49fca8c7ded124afa9785b307392c",
+          "author": {
+            "email": "tylerlundgren@yahoo.com",
+            "name": "nergdvnlt"
+          },
+          "message": "Added Endpoint Explanation.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/76575495bef49fca8c7ded124afa9785b307392c"
+        },
+        {
+          "sha": "6123c9a3671ffa717e7386a1b3e04371cf2d4c43",
+          "author": {
+            "email": "tylerlundgren@yahoo.com",
+            "name": "Tyler Lundgren"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/6123c9a3671ffa717e7386a1b3e04371cf2d4c43"
+        },
+        {
+          "sha": "423ee0bce8e62ecae50f2f992d18a190929476a3",
+          "author": {
+            "email": "34108893+anon0mys@users.noreply.github.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Merge pull request #55 from anon0mys/endpoint_expl\n\nAdded Endpoint Explanation.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/423ee0bce8e62ecae50f2f992d18a190929476a3"
+        },
+        {
+          "sha": "8b2a5a159cb4d80ab3deb3e358977078630f4759",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Customer favorite merchant query comlete\n\nWIP customers with pending invoices\n\nWIP endpoint and scope for pending invoices query",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/8b2a5a159cb4d80ab3deb3e358977078630f4759"
+        },
+        {
+          "sha": "37b74efcacb010235c5668641b6a6f6bd10e087a",
+          "author": {
+            "email": "anon0mys87@gmail.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Pending invoices query for merchants",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/37b74efcacb010235c5668641b6a6f6bd10e087a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-04T15:16:35Z"
+  },
+  {
+    "id": "7628961789",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131646904,
+      "name": "anon0mys/rales_engine",
+      "url": "https://api.github.com/repos/anon0mys/rales_engine"
+    },
+    "payload": {
+      "ref": "endpoint_expl",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-05-04T14:37:21Z"
+  },
+  {
+    "id": "7628961469",
+    "type": "PushEvent",
+    "actor": {
+      "id": 34108893,
+      "login": "anon0mys",
+      "display_login": "anon0mys",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anon0mys",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34108893?"
+    },
+    "repo": {
+      "id": 131646904,
+      "name": "anon0mys/rales_engine",
+      "url": "https://api.github.com/repos/anon0mys/rales_engine"
+    },
+    "payload": {
+      "push_id": 2539208976,
+      "size": 3,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "423ee0bce8e62ecae50f2f992d18a190929476a3",
+      "before": "51a82effc645bfaa17e3c773bfe63018682600ca",
+      "commits": [
+        {
+          "sha": "76575495bef49fca8c7ded124afa9785b307392c",
+          "author": {
+            "email": "tylerlundgren@yahoo.com",
+            "name": "nergdvnlt"
+          },
+          "message": "Added Endpoint Explanation.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/76575495bef49fca8c7ded124afa9785b307392c"
+        },
+        {
+          "sha": "6123c9a3671ffa717e7386a1b3e04371cf2d4c43",
+          "author": {
+            "email": "tylerlundgren@yahoo.com",
+            "name": "Tyler Lundgren"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/6123c9a3671ffa717e7386a1b3e04371cf2d4c43"
+        },
+        {
+          "sha": "423ee0bce8e62ecae50f2f992d18a190929476a3",
+          "author": {
+            "email": "34108893+anon0mys@users.noreply.github.com",
+            "name": "Evan Wheeler"
+          },
+          "message": "Merge pull request #55 from anon0mys/endpoint_expl\n\nAdded Endpoint Explanation.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anon0mys/rales_engine/commits/423ee0bce8e62ecae50f2f992d18a190929476a3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-05-04T14:37:18Z"
+  }
+]

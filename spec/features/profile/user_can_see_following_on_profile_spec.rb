@@ -14,10 +14,10 @@ feature 'On the Profile page Following tab' do
 
       visit "/#{user.username}"
 
-      click_on 'Followers'
+      click_on 'Following'
 
-      expect(current_url).to include('tab=followers')
-      expect(page).to have_css('.follower-item')
+      expect(current_url).to include('tab=following')
+      expect(page).to have_css('.following-item')
     end
   end
 end

@@ -37,6 +37,18 @@ describe ProfilePresenter do
         expect(subject.build_profile(params)).to be_an Array
         expect(subject.build_profile(params).first).to be_a GithubUser
       end
+
+      it 'creates an array of followed users when params includes following' do
+        params = { tab: 'following', username: 'username' }
+        stub_request(:get, 'https://api.github.com/users/username')
+          .to_return(status: 200, body: File.read('./spec/fixtures/json/profile_with_bio.json'))
+
+        stub_request(:get, 'https://api.github.com/users/username/following')
+          .to_return(status: 200, body: File.read('./spec/fixtures/json/following.json'))
+
+        expect(subject.build_profile(params)).to be_an Array
+        expect(subject.build_profile(params).first).to be_a GithubUser
+      end
     end
   end
 end

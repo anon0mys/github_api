@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   def show
-    @profile = GithubUserSearch.new(params[:username]).find_user
+    @profile = ProfilePresenter.new(params[:username])
+    @profile.build_profile(params)
   end
 end

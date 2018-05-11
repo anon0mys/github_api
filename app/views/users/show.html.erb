@@ -1,35 +1,49 @@
 <div class="profile-main">
   <div class="profile-card">
-    <% if @profile.avatar.nil? %>
+    <% if @profile.user.avatar.nil? %>
       <%= image_tag "https://avatars2.githubusercontent.com/u/34108893?v=4", class: 'avatar' %>
     <% else %>
-      <%= image_tag @profile.avatar, class: 'avatar'%>
+      <%= image_tag @profile.user.avatar, class: 'avatar'%>
     <% end %>
-    <%= @profile.name %>
-    <%= @profile.login %>
-    <% if current_user.uid == @profile.uid %>
-      <% if @profile.bio.nil? %>
+    <%= @profile.user.name %>
+    <%= @profile.user.login %>
+    <% if current_user.uid == @profile.user.uid %>
+      <% if @profile.user.bio.nil? %>
         <%= link_to 'Add Bio', '/' %>
       <% else %>
-        <%= @profile.bio %>
+        <%= @profile.user.bio %>
       <% end %>
     <% else %>
       <%= link_to 'Follow', '/' %>
     <% end %>
   </div>
-  <div class="profile-links">
-    <%= link_to 'Repositories', '/' %>
+  <section>
+    <div class="profile-links">
+      <%= link_to 'Overview', "/#{@profile.user.login}" %>
+      <%= link_to 'Repositories', "/#{@profile.user.login}?tab=repositories" %>
       <div class="counter">
-        <%= @profile.public_repos %>
+        <%= @profile.user.public_repos %>
       </div>
-    <%= link_to 'Stars', '/' %>
-    <%= link_to 'Followers', '/' %>
+      <%= link_to 'Stars', "/#{@profile.user.login}" %>
       <div class="counter">
-        <%= @profile.followers %>
+        0
       </div>
-    <%= link_to 'Following', '/' %>
+      <%= link_to 'Followers', "/#{@profile.user.login}?tab=followers" %>
       <div class="counter">
-        <%= @profile.following %>
+        <%= @profile.user.followers %>
       </div>
-  </div>
+      <%= link_to 'Following', "/#{@profile.user.login}?tab=following" %>
+      <div class='counter'>
+        <%= @profile.user.following %>
+      </div>
+    </div>
+  </section>
+  <main>
+    <% case params[:tab] %>
+    <% when 'repositories' %>
+      <%= render partial: '/users/repositories_tab' %>
+    <% else %>
+    
+    <% end %>
+  </main>
 </div>
